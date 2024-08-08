@@ -1,0 +1,2 @@
+# Web-building-page-for-automatic-control-of-robot-movement-and-linking-it-to-the-database
+This is a web interface to control robot movements, allowing users to send commands for forward, backward, left, right, and stop. Commands are stored in a MySQL database for tracking. Inspired by a video design, it was modified for simplicity and clarity. The project can be run locally using a server like XAMPP or MAMP.
