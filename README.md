@@ -69,7 +69,7 @@ This project is a web-based control panel for managing the movement of a robot. 
 
 - A phpMyAdmin database named `commands` is used to store the direction commands sent from the control panel.
 
-![image](https://github.com/user-attachments/assets/9bcc9ba8-d546-4b79-b79a-f965895bbf9b)
+![image](https://github.com/user-attachments/assets/4d9497aa-348d-40f6-aa92-3196101efc58)
 
 
 ## Design Notes
