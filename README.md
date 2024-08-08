@@ -13,41 +13,6 @@ This project is a web-based control panel for managing the movement of a robot. 
 ![image](https://github.com/user-attachments/assets/0d5501f0-2ba3-495a-a3e5-21efd622a0a7)
 
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/robot-control-panel.git
-    ```
-
-2. **Navigate to the project directory:**
-    ```bash
-    cd robot-control-panel
-    ```
-
-3. **Set up the phpMyAdmin database:**
-    - Create a database named `commands`.
-    - Create a table named `commands` with the following structure:
-        ```sql
-        CREATE TABLE `commands` (
-          `id` int(11) NOT NULL AUTO_INCREMENT,
-          `direction` varchar(50) NOT NULL,
-          `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-          PRIMARY KEY (`id`)
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-        ```
-
-4. **Configure the database connection:**
-    - Update the `process.php` file with your phpMyAdmin username, password, and database name:
-        ```php
-        $servername = "127.0.0.1:3307";
-        $username = "root"; // Replace with your phpMyAdmin username
-        $password = ""; // Replace with your phpMyAdmin password
-        $dbname = "commands"; // Replace with your database name
-        ```
-
-5. **Run the application:**
-    - Start a local server (e.g., using XAMPP, MAMP, or any other method).
-    - Open the browser and navigate to `http://localhost:8080/control/indexre.php`.
-
 ## Usage
 
 - Open the control panel in your browser.
